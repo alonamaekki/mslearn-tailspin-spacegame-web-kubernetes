@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: tailspinspacegame2429.azurecr.io
+          image: tailspinspacegame2429.azurecr.io/tailspinspacegame2429
           ports:
           - containerPort: 80
 ---
@@ -35,6 +35,6 @@ spec:
     spec:
       containers:
         - name: leaderboard
-          image: tailspinspacegame2429.azurecr.io
+          image: tailspinspacegame2429.azurecr.io/tailspinspacegame2429
           ports:
           - containerPort: 80
